@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+.video-container {
+  text-align: center;
+  margin-right: 1rem;;
+}
+video{
+  width: 100%;
+  max-width: 100%;
+  margin:0;
+  padding:0;
+  border-radius: 1rem;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.controls button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+#wrapper{
+  display: flex;
+  flex-direction: row;
+  margin:0;
+  padding:0;
+}
+#videoWrapper{
+  display:flex;
+  flex-direction:column;
+  margin:0;
+  padding:0;
+  width: 70%;
+  height: 70vh;
+}
+
+#transcriptWrapper{
+  height:70vh;
+  background-color:#ccc;
+  padding:1rem;
+  border-radius: 1rem;
+  margin:0;
+  width: 30%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+}
+
+tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+tbody {
+  display: block;
+  height: 70vh; 
+  overflow-y: auto;
+}
+
+thead, tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+select{
+  width:10rem;
+}
+select{
+  cursor: pointer;
+}
+
+::cue {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
